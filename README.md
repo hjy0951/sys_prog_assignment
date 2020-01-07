@@ -1,7 +1,7 @@
 # sys_prog_assignment
 implement sorts (bubble, selection, insertion) with assembly language using sictool
 
-
+<pre><code>
 START	LDA	ZERO
 	STA	IDX
 	STA	TEMP
@@ -408,3 +408,5 @@ TIDX2	RESW	1
 MINIDX	RESW	1	.Selection sort에서 최소 값의 index를 저장할 변수
 CORIDX	RESW	1	.Insertion soet에서 insert할 값이 들어갈 index를 저장할 변수
 INST	RESW	1	.insert할 값을 저장하는 변수
+
+</code></pre>
